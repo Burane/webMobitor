@@ -1,0 +1,17 @@
+{
+  "name": "jfa-monitor",
+  "version": "1.0.0",
+  "description": "monitor the system",
+  "main": "start.js",
+  "dependencies": {
+    "cpu-stat": "^2.0.1",
+    "express": "^4.17.1",
+    "microstats": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node start.js"
+  },
+  "author": "Antoine Kerbiriou",
+  "license": "ISC"
+}
